@@ -1,7 +1,6 @@
 server:
   port: 8761
 
-
 # eureka:
 #  instance:
 #    hostname: "${HOSTNAME}.eureka"
@@ -14,7 +13,7 @@ server:
 eureka:
   instance:
     #hostname: localhost
-     hostname: eureka-server
+    hostname: eureka-server
   client:
     register-with-eureka: false
     fetch-registry: false
